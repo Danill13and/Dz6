@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width:100%;
+}
+.content {
+    width: 500px;
+    margin: auto;
+}
+
+#arrowTop {
+    color: red;
+    /* Вам нужно установить определенное позиционирование стрелочке, которое при прокрутке страницы не меняло свое положение! */
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+#arrowDown {
+    color: red;
+    /* Вам нужно установить определенное позиционирование стрелочке, которое при прокрутке страницы не меняло свое положение! */
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+}
